@@ -1,27 +1,30 @@
 <!DOCTYPE html>
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Car show login</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
     </head>
     <body>
-        <div id="loginContainer">
-            <p>Login</p>
-            <form action="" method="GET">
-                <label for="name">Name
-                    <input type="text" name = "name" id = "nameInput">
-                </label>
-                <label for="password">Password
-                    <input type="password" name = "password" id = "passwordInput">
-                </label>
-                <div id="buttonContainer">
-                    <button type="submit">Login</button>
-                    <button type="reset">Reset</button>
-                </div>
-            </form>
+        <div id="wrapper">
+            <div id="loginContainer">
+                <form action="" method="GET">
+                    <header>Login</header>
+
+                    <label for="name">Name
+                        <input type="text" name = "name" id = "name">
+                    </label>
+                    <label for="password">Password
+                        <input type="password" name = "password" id = "password">
+                    </label>
+                    <div id="buttonContainer">
+                        <button type="submit">Login</button>
+                        <button type="reset">Reset</button>
+                    </div>
+                    <p id = "errorMessage"></p>
+                </form>
+            </div>
         </div>
         
         <script src="scripts.js"></script>

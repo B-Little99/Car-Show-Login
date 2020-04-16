@@ -1,16 +1,76 @@
-body {
-    height: 100vh;
+* {
+    font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    font-size: 25px;
+    user-select: none;
+    height: 100vh;
+    background-image: url(mustang-on-beach.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    text-align: center;
+}
 
 #loginContainer {
-    background-color: blue;
     color: white;
-    width: 500px;
-    top: 50%;
+    width: 400px;
+    border-radius: 4px;
+    height: 60vh;
+    display: inline-block;
+    margin-top: 130px;
+}
+
+header {
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+    margin: 0;
+    padding-bottom: 40px;
+    color: white;
 }
 
 form {
-    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(0, 0, 0, 0.8);
+}
 
+label {
+    width: 100%;
+    text-align: left;
+    align-items: center;
+}
+
+input {
+    width: 80%;
+    font-size: 25px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    outline: none;
+    border-radius: 4px;
+    margin: 15px 0 25px 0;
+}
+
+#buttonContainer {
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+}
+
+button {
+    font-size: 25px;
+    width: 92%;
+    border-radius: 4px;
+    background-color: white;
+    outline: none;
+    height: 45px;
+    margin: 5px;
 }
