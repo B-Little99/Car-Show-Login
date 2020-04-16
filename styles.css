@@ -1,0 +1,16 @@
+body {
+    height: 100vh;
+}
+
+
+#loginContainer {
+    background-color: blue;
+    color: white;
+    width: 500px;
+    top: 50%;
+}
+
+form {
+    font-size: 50px;
+
+}
