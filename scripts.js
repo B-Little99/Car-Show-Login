@@ -10,7 +10,6 @@ const email = document.getElementById("email");
 const telephone = document.getElementById("telephone");
 let submissionErrorText = "Please fill in the empty input fields.";
 
-
 const regEx = { //Here I create a object to hold the different regular expressions I have created for the different input fields.
     name: /^[A-z]{1,20}$/,
     password: /^[\w@]{5,20}$/,
