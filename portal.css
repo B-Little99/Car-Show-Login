@@ -1,0 +1,322 @@
+* {
+    font-family:'Montserrat', sans-serif;;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#wrapper{
+    height: 250px;
+    position: relative;
+    display: flex;
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+#headerContainer{
+    position: absolute;
+    margin: 0 150px;
+    text-align: center;
+}
+
+header {
+    padding-top: 20px;
+    font-size: 50px;
+    color: white;
+}
+
+p {
+    font-size: 25px;
+    line-height: 2.5rem;
+    color: white;
+}
+
+#gridContainer {
+    text-align: center;
+    width: 100vw;
+    margin-bottom: 50px;
+}
+
+#row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;   
+    margin: 20px 0px;
+    width: 100%;
+    align-items: center;
+}
+
+#imgOneContainer{
+    background-image: url(mustang-on-beach.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 400px;
+    position: relative;
+    display: inline-flex;
+    width: 33%;
+    margin: 0px;
+}
+
+#imgOneContainer:hover::before{
+    content: "";
+    background-color: rgb(25, 25, 236, 0.7);
+    opacity: 0.3;
+    width: 100%;
+    margin: 0;
+}
+
+#img1 {
+    position: absolute;
+    margin: 0;
+    text-align: center;
+    left: 0;
+    right:0;
+}
+
+#imgTwoContainer{
+    background-image: url(mustang-on-beach.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 400px;
+    position: relative;
+    display: inline-flex;
+    width: 33%;
+    margin: 0px;
+}
+
+#imgTwoContainer:hover::before{
+    content: "";
+    background: rgb(25, 25, 236, 0.7);
+    opacity: 0.3;
+    width: 100%;
+    margin: 0;
+}
+
+#img2 {
+    position: absolute;
+    margin: 0;
+    text-align: center;
+    left: 0;
+    right:0;
+}
+
+#imgThreeContainer{
+    background-image: url(mustang-on-beach.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 400px;
+    position: relative;
+    display: inline-flex;
+    width: 33%;
+    margin: 0px;
+}
+
+#imgThreeContainer:hover::before{
+    content: "";
+    background: rgb(25, 25, 236, 0.7);
+    opacity: 0.3;
+    width: 100%;
+    margin: 0;
+}
+
+#img3 {
+    position: absolute;
+    margin: 0;
+    text-align: center;
+    left: 0;
+    right:0;
+}
+
+#row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+    width: 100%;
+    margin: 20px 0px;
+}
+
+#imgFourContainer{
+    background-image: url(mustang-on-beach.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 400px;
+    position: relative;
+    display: inline-flex;
+    width: 33%;
+    margin: 0px;
+}
+
+#imgFourContainer:hover::before{
+    content: "";
+    background: rgb(25, 25, 236, 0.7);
+    opacity: 0.3;
+    width: 100%;
+    margin: 0;
+}
+
+#img4 {
+    position: absolute;
+    margin: 0;
+    text-align: center;
+    left: 0;
+    right:0;
+}
+
+#imgFiveContainer{
+    background-image: url(mustang-on-beach.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 400px;
+    position: relative;
+    display: inline-flex;
+    width: 33%;
+    margin: 0px;
+}
+
+#imgFiveContainer:hover::before{
+    content: "";
+    background: rgb(25, 25, 236, 0.7);
+    opacity: 0.3;
+    width: 100%;
+    margin: 0;
+}
+
+#img5 {
+    position: absolute;
+    margin: 0;
+    text-align: center;
+    left: 0;
+    right:0;
+}
+
+#imgSixContainer{
+    background-image: url(mustang-on-beach.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 400px;
+    position: relative;
+    display: inline-flex;
+    width: 33%;
+    margin: 0px;
+}
+
+#imgSixContainer:hover::before{
+    content: "";
+    background: rgb(25, 25, 236, 0.7);
+    opacity: 0.3;
+    width: 100%;
+    margin: 0;
+}
+
+#img6 {
+    position: absolute;
+    margin: 0;
+    text-align: center;
+    left: 0;
+    right:0;
+}
+
+
+#row3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+    margin: 20px 0px;
+    width: 100%;
+}
+
+#imgSevenContainer{
+    background-image: url(mustang-on-beach.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 400px;
+    position: relative;
+    display: inline-flex;
+    width: 33%;
+    margin: 0px;
+}
+
+#imgSevenContainer:hover::before{
+    content: "";
+    background: rgb(25, 25, 236, 0.7);
+    opacity: 0.3;
+    width: 100%;
+    margin: 0;
+}
+
+#img7 {
+    position: absolute;
+    margin: 0;
+    text-align: center;
+    left: 0;
+    right:0;
+}
+
+#imgEightContainer{
+    background-image: url(mustang-on-beach.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 400px;
+    position: relative;
+    display: inline-flex;
+    width: 33%;
+    margin: 0px;
+}
+
+#imgEightContainer:hover::before{
+    content: "";
+    background: rgb(25, 25, 236, 0.7);
+    opacity: 0.3;
+    width: 100%;
+    margin: 0;
+}
+
+#img8 {
+    position: absolute;
+    margin: 0;
+    text-align: center;
+    left: 0;
+    right:0;
+}
+
+#imgNineContainer{
+    background-image: url(mustang-on-beach.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 400px;
+    position: relative;
+    display: inline-flex;
+    width: 33%;
+    margin: 0px;
+}
+
+#imgNineContainer:hover::before{
+    content: "";
+    background: rgb(25, 25, 236, 0.7);
+    opacity: 0.3;
+    width: 100%;
+    margin: 0;
+}
+
+#img9 {
+    position: absolute;
+    margin: 0;
+    text-align: center;
+    left: 0;
+    right:0;
+}
+
+.gridItem {
+    padding-top: 30%;
+}
